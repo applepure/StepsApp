@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="title_activity_start">startActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="comments">comments</string>
+    <string name="loading_comments">Loading Comments (Bonus)...</string>
+    <string name="cancel">Cancel</string>
+    <string name="fill_upper_text_field">Please Fill Upper Bound Text Field</string>
+    <string name="fill_lower_text_field">Please Fill Lower Bound Text Field</string>
+    <string name="bottom">bottom</string>
+    <string name="top">top</string>
+    <string name="fetching_list">Fetching list with these bounds</string>
+    <string name="appName">Steps Interview App</string>
+    <string name="choose_lower_number">Please Choose A lower Bound Number Smaller Than The Upper Bound</string>
+</resources>

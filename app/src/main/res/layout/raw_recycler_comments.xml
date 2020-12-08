@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:id="@+id/raw_holder"
+
+    android:paddingBottom="2dp"
+    android:gravity="center"
+
+   >
+
+            <TextView
+                android:id="@+id/comment_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:letterSpacing="0.01"
+                android:shadowColor="#c2000000"
+                android:shadowDy="1"
+                android:shadowRadius="1"
+                android:text="id"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_h"
+                android:textStyle="italic" />
+
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_height"
+            android:layout_marginEnd="24dp"
+
+            android:elevation="@dimen/title_pic"
+            android:translationZ="@dimen/margin_left_m"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="3dp"
+            app:cardMaxElevation="3dp"
+          >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:letterSpacing="0.01"
+                    android:layout_marginStart="@dimen/margin_left_h"
+
+                    android:textColor="@color/colorBlack"
+
+                    android:text="name"
+                    android:textSize="@dimen/text_size_s"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_marginStart="@dimen/margin_left_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:letterSpacing="0.01"
+                    android:layout_below="@+id/name"
+
+                    android:textColor="@color/colorBlack"
+                    android:text="email"
+                    android:textSize="@dimen/text_size_s"
+                    android:textStyle="italic" />
+
+
+                <TextView
+                    android:id="@+id/body"
+                    android:layout_marginStart="@dimen/margin_left_h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:letterSpacing="0.01"
+                    android:text="body"
+
+                    android:layout_below="@+id/email"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="@dimen/text_size_s"
+                   />
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="uploadImage">207dp</dimen>
+    <dimen name="back_btn_w">20dp</dimen>
+    <dimen name="back_btn_h">20dp</dimen>
+    <dimen name="toolbar_btn">13.1dp</dimen>
+
+    <dimen name="camera_info_baloon_height">81dp</dimen>
+    <dimen name="donats_wh">41dp</dimen>
+    <dimen name="margin_left_xxxh">20dp</dimen>
+    <dimen name="margin_left_xxh">16.2dp</dimen>
+    <dimen name="margin_left_xh">13.1dp</dimen>
+    <dimen name="margin_left_mh">10.4976dp</dimen>
+    <dimen name="margin_left_xm">11.7dp</dimen>
+
+    <dimen name="margin_left_h">9.4dp</dimen>
+    <dimen name="margin_left_m">5.9dp</dimen>
+    <dimen name="margin_left_s">3.2dp</dimen>
+    <dimen name="toolbar_height">48dp</dimen>
+    <dimen name="xtoolbar_height">52.448dp</dimen>
+
+    <dimen name="btn_capture_height">33dp</dimen>
+    <dimen name="xbtn_capture_height">45.927dp</dimen>
+
+    <dimen name="large_toolbar">132dp</dimen>
+    <dimen name="xlarge_toolbar">164.025dp</dimen>
+    <dimen name="xxlarge_toolbar">196.83dp</dimen>
+    <dimen name="xxxlarge_toolbar">243dp</dimen>
+    <dimen name="xxxxlarge_toolbar">362.07dp</dimen>
+    <dimen name="xxxmlarge_toolbar">312.33dp</dimen>
+    <dimen name="flag_img">17.172dp</dimen>
+    <dimen name="document_img">16.0dp</dimen>
+    <dimen name="xtitlepic">26.244dp</dimen>
+    <dimen name="title_pic">22.599dp</dimen>
+    <dimen name="text_size_s">8.0sp</dimen>
+    <dimen name="text_size_xs">9.5sp</dimen>
+    <dimen name="text_size_m">10.6sp</dimen>
+    <dimen name="text_size_xm">11.8sp</dimen>
+    <dimen name="text_size_h">13.2sp</dimen>
+    <dimen name="text_size_xh">14.5sp</dimen>
+    <dimen name="margin_top_dimen">59.049dp</dimen>
+    <dimen name="upload_img">123.93dp</dimen>
+    <dimen name="uploadtitle">36.45dp</dimen>
+
+</resources>
